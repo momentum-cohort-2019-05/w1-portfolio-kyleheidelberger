@@ -21,10 +21,21 @@ body    {
 }
 
 .barLink    {
-    padding: 20px;
-    background-color: #52AAFF;
+    padding: 15px;
+    background-color: black;
     margin: 0px 20px 0px 20px;
     border-radius: 30px;
+}
+
+.projDesc   {
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+.projImg    {
+    float: right;
+    width: 500px;
 }
 
 a:link  {
