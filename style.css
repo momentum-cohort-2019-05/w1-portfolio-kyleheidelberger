@@ -30,15 +30,27 @@ body    {
     border-radius: 30px;
 }
 
+.pageTitle  {
+    font-size: 45px;
+    display: block;
+    margin: 20px 0px 0px 50px;
+}
+
+.name   {
+    font-size: 45px;
+}
+
 .projDesc   {
+    float: left;
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
     width: 500px;
 }
 
 .projImg    {
     float: right;
     width: 500px;
+    margin: 50px;
 }
 
 a.barLink:link  {
