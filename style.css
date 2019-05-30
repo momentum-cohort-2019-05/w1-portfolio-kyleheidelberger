@@ -4,6 +4,29 @@
 	padding: 0;
 }
 
+body    {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading  {
+    font-size: 60px;
+    float:left;
+    margin: 20px;
+}
+
+.nav-bar {
+    font-size: 26px;
+    float: right;
+    margin-top: 40px;
+}
+
+.barLink    {
+    padding: 20px;
+    background-color: #52AAFF;
+    margin: 0px 20px 0px 20px;
+    border-radius: 30px;
+}
+
 a:link  {
     color: white;
     text-decoration: none;
