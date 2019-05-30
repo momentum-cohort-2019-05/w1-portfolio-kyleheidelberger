@@ -50,3 +50,10 @@ a:visited   {
 a:hover{
     color:black;
 }
+
+.kyle   {
+    display: block;
+    float:left;
+    width: 300px;
+    border: 2px solid black;
+}
