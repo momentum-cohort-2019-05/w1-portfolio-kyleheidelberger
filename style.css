@@ -8,15 +8,18 @@ body    {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.page-header    {
+    background-color: red;
+    display: flex;
+}
+
 .heading  {
     font-size: 60px;
-    float:left;
     margin: 20px;
 }
 
 .nav-bar {
     font-size: 26px;
-    float: right;
     margin-top: 40px;
 }
 
@@ -51,9 +54,22 @@ a:hover{
     color:black;
 }
 
+.profile    {
+    padding: 10px;
+    margin: 10px;
+}
+
 .kyle   {
-    display: block;
-    float:left;
     width: 300px;
     border: 2px solid black;
+}
+
+.headshot   {
+    float: left;
+    display: block;
+}
+
+.bio    {
+    display: inline-block;
+    padding: 40px;
 }
