@@ -41,17 +41,17 @@ body    {
     width: 500px;
 }
 
-a:link  {
+a.barLink:link  {
     color: white;
     text-decoration: none;
 }
 
-a:visited   {
+a.barLink:visited   {
     color: white;
 }
 
-a:hover{
-    color:black;
+a.barLink:hover{
+    color:dodgerblue;
 }
 
 .profile    {
