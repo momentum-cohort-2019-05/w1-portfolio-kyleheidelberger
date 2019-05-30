@@ -8,6 +8,30 @@ body    {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+main    {
+    padding: 50px;
+}
+
+h3  {
+    font-size: 5rem;
+}
+
+h4  {
+    font-size: 4rem;
+}
+
+h5  {
+    font-size: 3rem;
+}
+
+h6  {
+    font-size: 2rem;
+}
+
+p   {
+    font-size: 1rem;
+}
+
 .page-header    {
     background-color: red;
     display: flex;
@@ -33,7 +57,6 @@ body    {
 .pageTitle  {
     font-size: 45px;
     display: block;
-    margin: 20px 0px 0px 50px;
 }
 
 .name   {
@@ -85,3 +108,8 @@ a.barLink:hover{
     display: inline-block;
     padding: 40px;
 }
+
+.contact, .dates    {
+    float: right;
+}
+
