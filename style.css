@@ -1,9 +1,9 @@
 *	{
-	box-sizing: border-box;
-	margin: 0;
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
+    
 }
 
 body    {
@@ -17,6 +17,10 @@ main    {
 
 img{
     max-width: 100%;
+}
+
+/* h2  {
+    font-size: 6rem;
 }
 
 h3  {
@@ -37,7 +41,7 @@ h6  {
 
 p   {
     font-size: 1rem;
-}
+} */
 
 .page-header    {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
@@ -69,9 +73,9 @@ p   {
     display: block;
 }
 
-.name   {
+/* .name   {
     font-size: 45px;
-}
+} */
 
 .proj   {
     display: flex;
@@ -114,16 +118,51 @@ a.barLink:hover{
 }
 
 .headshot   {
-    float: left;
-    display: block;
+    flex: 0 1 30%;
 }
 
 .bio    {
-    display: inline-block;
-    padding: 40px;
+    display: flex;
+}
+
+.textRight  {
+    flex: 0 1 70%;
+}
+
+/* Resume */
+
+.resume {
+
+}
+
+.resumeBox  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact, .dates    {
-    float: right;
+    /* float: right; */
 }
 
+.company, .university    {
+    /* font-color: pink;  not working */
+    font-size: 100px;
+}
+
+hr  {
+    border: none;
+    border-top: 3px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after   {
+    background: #ffffff;
+    content: "H";
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
