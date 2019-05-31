@@ -6,59 +6,357 @@
     
 }
 
+/* element selectors */
+
 body    {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(35, 172, 42, 0.5)); */
+    margin: 0 auto;
 }
 
 main    {
     padding: 50px;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-/* h2  {
-    font-size: 6rem;
+/* on all pages */
+
+.page-header    {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding: 5px 40px;
+    width: 100%;
+    height: 20%;
 }
 
-h3  {
-    font-size: 5rem;
+.heading  {
+    font-size: 1.5em;
+    margin: 5px;
 }
 
-h4  {
-    font-size: 4rem;
+.nav-bar {
+    font-size: .75em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-h5  {
-    font-size: 3rem;
+.barLink    {
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    /* margin: 0px 20px 0px 20px; */
+    border-radius: 2em;
 }
 
-h6  {
-    font-size: 2rem;
+.pageTitle  {
+    font-size: 3em;
+    display: block;
 }
 
-p   {
-    font-size: 1rem;
-} */
+a.barLink:link  {
+    color: white;
+    text-decoration: none;
+}
+
+a.barLink:visited   {
+    color: white;
+}
+
+a.barLink:hover{
+    color:dodgerblue;
+}
+
+/* Home page */
+
+.profile    {
+    padding: 10px;
+    margin: 10px;
+}
+
+.kyle   {
+    width: 75%;
+    max-width: 300px;
+    border: 2px solid black;
+}
+
+.headshot   {
+}
+
+.bio    {
+}
+
+.textRight  {
+}
+
+/* Project page */
+
+.proj   {
+}
+
+.projDesc   {
+    margin: 10px;
+    width: 75%;
+    max-width: 90%;
+}
+
+.projImg    {
+    width: 75%;
+    margin: 10px;
+    border: 4px solid black;
+    max-width: 90%;
+}
+
+/* Resume */
+
+.resume {
+
+}
+
+.resumeBox  {
+
+}
+
+.resume h3 {
+    font-size: 20px;
+}
+
+.contact    {
+    font-size: 16px;
+}
+
+.dates  {
+    font-size:  10px;
+}
+
+hr  {
+    border: none;
+    border-top: 5px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after   {
+    background: #ffffff;
+    content: "H";
+    font-size: 30px;
+    padding: 0 4px;
+    position: relative;
+    top: -24px;
+}
+
+.statement  {
+    font-size: 14px;
+}
+
+.resumeSection  {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.company, .university    {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.job-title, .degree {
+    font-size: 10px;
+}
+
+.job-description    {
+    font-size:  12px;
+}
+
+.resume *    {
+        padding: 5px 0px;
+    }
+
+
+
+/*Media Queries*/
+
+/* Tablet Display */
+
+@media screen and (min-width:768px)    {
+    
+    /* on all pages */
+    
+    .page-header    {
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        padding: 5px 40px;
+        width: 100%;
+        height: 20%;
+
+    }
+    
+    .heading  {
+        font-size: 2em;
+        margin: 5px;
+    }
+    
+    .nav-bar {
+        font-size: 2em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .barLink    {
+        padding: 5px 15px 5px 15px;
+        background-color: black;
+        /* margin: 0px 20px 0px 20px; */
+        border-radius: 2em;
+    }
+    
+    .pageTitle  {
+        font-size: 3em;
+        display: block;
+    }
+    
+    a.barLink:link  {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a.barLink:visited   {
+        color: white;
+    }
+    
+    a.barLink:hover{
+        color:dodgerblue;
+    }
+    
+    /* Home page */
+    
+    .profile    {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .kyle   {
+        width: 75%;
+        max-width: 300px;
+        border: 2px solid black;
+    }
+    
+    .headshot   {
+    }
+    
+    .bio    {
+    }
+    
+    .textRight  {
+    }
+    
+    /* Project page */
+    
+    .proj   {
+    }
+    
+    .projDesc   {
+        margin: 10px;
+        width: 75%;
+        max-width: 90%;
+    }
+    
+    .projImg    {
+        width: 75%;
+        margin: 10px;
+        border: 4px solid black;
+        max-width: 90%;
+    }
+    
+    /* Resume */
+    
+    .resume {
+    
+    }
+    
+    .resumeBox  {
+    
+    }
+    
+    .resume h3 {
+        font-size: 20px;
+    }
+    
+    .contact    {
+        font-size: 16px;
+    }
+    
+    .dates  {
+        font-size:  10px;
+    }
+    
+    hr  {
+        border: none;
+        border-top: 5px double black;
+        color: black;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+    }
+    
+    hr::after   {
+        background: #ffffff;
+        content: "H";
+        font-size: 30px;
+        padding: 0 4px;
+        position: relative;
+        top: -24px;
+    }
+    
+    .statement  {
+        font-size: 14px;
+    }
+    
+    .resumeSection  {
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .company, .university    {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .job-title, .degree {
+        font-size: 10px;
+    }
+    
+    .job-description    {
+        font-size:  12px;
+    }
+    
+    .resume *    {
+            padding: 5px 0px;
+        }
+    }
+
+/* Large Display */
+
+@media screen and (min-width:1130px)    {
 
 .page-header    {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     display: flex;
     justify-content: space-between;
-    padding: 5px 40px;
     align-items: center;
-    flex-shrink: 1;
+    padding: 5px 40px;
+    height: 20%;
 }
 
 .heading  {
-    font-size: 60px;
+    font-size: 4em;
     margin: 20px;
 }
 
 .nav-bar {
-    font-size: 26px;
+    font-size: 3em;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .barLink    {
@@ -72,10 +370,6 @@ p   {
     font-size: 45px;
     display: block;
 }
-
-/* .name   {
-    font-size: 45px;
-} */
 
 .proj   {
     display: flex;
@@ -190,3 +484,6 @@ hr::after   {
 .resume *    {
         padding: 5px 0px;
     }
+
+    }
+    
