@@ -78,16 +78,14 @@ p   {
 }
 
 .projDesc   {
-    /* float: left; */
     padding: 20px;
     margin: 50px;
     width: 500px;
 }
 
 .projImg    {
-    /* float: right; */
     width: 50%;
-    height: 400px;
+    height: 50%;
     margin: 50px;
     border: 4px solid black;
 }
