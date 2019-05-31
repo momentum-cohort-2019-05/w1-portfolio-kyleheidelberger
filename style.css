@@ -165,7 +165,7 @@ hr::after   {
     font-size: 30px;
     padding: 0 4px;
     position: relative;
-    top: -20px;
+    top: -24px;
 }
 
 .statement  {
@@ -174,8 +174,17 @@ hr::after   {
 
 .resumeSection  {
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .company, .university    {
     font-size: 26px;
 }
+
+.job-title, .degree {
+    font-size: 20px;
+}
+
+.resume *    {
+        padding: 5px 0px;
+    }
