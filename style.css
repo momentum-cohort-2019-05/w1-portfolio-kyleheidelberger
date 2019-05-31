@@ -141,18 +141,18 @@ a.barLink:hover{
     align-items: center;
 }
 
-.contact, .dates    {
-    /* float: right; */
+.resume h3 {
+    font-size: 50px;
 }
 
-.company, .university    {
-    /* font-color: pink;  not working */
-    font-size: 100px;
+.contact, .dates    {
+    /* float: right; */
+    font-size: 20px;
 }
 
 hr  {
     border: none;
-    border-top: 3px double black;
+    border-top: 5px double black;
     color: black;
     overflow: visible;
     text-align: center;
@@ -162,7 +162,20 @@ hr  {
 hr::after   {
     background: #ffffff;
     content: "H";
+    font-size: 30px;
     padding: 0 4px;
     position: relative;
-    top: -13px;
+    top: -20px;
+}
+
+.statement  {
+    font-size: 25px;
+}
+
+.resumeSection  {
+    font-size: 30px;
+}
+
+.company, .university    {
+    font-size: 26px;
 }
