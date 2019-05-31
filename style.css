@@ -259,6 +259,7 @@ hr::after   {
         margin: 10px;
         width: 75%;
         max-width: 90%;
+        font-size: 2em;
     }
     
     .projImg    {
@@ -363,7 +364,7 @@ hr::after   {
     padding: 15px 25px 15px 25px;
     background-color: black;
     margin: 0px 20px 0px 20px;
-    border-radius: 30px;
+    border-radius: 2em;
 }
 
 .pageTitle  {
