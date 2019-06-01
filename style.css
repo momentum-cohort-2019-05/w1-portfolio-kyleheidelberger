@@ -54,17 +54,17 @@ img {
     display: block;
 }
 
-a.barLink:link  {
+a.barLink  {
     color: white;
     text-decoration: none;
 }
 
-a.barLink:visited   {
-    color: white;
+.footer {
+    margin: 20px;
 }
 
-a.barLink:hover{
-    color:dodgerblue;
+.email, .twitter, .linkedIn, .facebook, .instagram  {
+    height: 30px;
 }
 
 /* Home page */
@@ -85,6 +85,7 @@ a.barLink:hover{
 }
 
 .bio    {
+
 }
 
 .textRight  {
@@ -200,6 +201,11 @@ hr::after   {
     
     .pageTitle  {
         font-size: 4em;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
     }
     
     /* Home page */
