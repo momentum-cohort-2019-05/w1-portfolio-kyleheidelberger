@@ -14,7 +14,7 @@ body    {
 }
 
 main    {
-    padding: 50px;
+    padding: 10px 20px;
 }
 
 img {
@@ -31,8 +31,8 @@ img {
 }
 
 .heading  {
-    font-size: 1.5em;
-    margin: 5px;
+    font-size: 2em;
+    margin: .5em;
 }
 
 .nav-bar {
@@ -40,6 +40,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .barLink    {
@@ -69,10 +70,10 @@ a.barLink:hover{
 
 /* Home page */
 
-.profile    {
+/* .profile    {
     padding: 10px;
     margin: 10px;
-}
+} */
 
 .kyle   {
     width: 75%;
@@ -87,6 +88,7 @@ a.barLink:hover{
 }
 
 .textRight  {
+    margin-top: 10px;
 }
 
 /* Project page */
@@ -181,6 +183,10 @@ hr::after   {
 
 @media screen and (min-width:768px)    {
     
+    main    {
+        margin: 15px 25px;
+    }
+
     /* on all pages */
     
     .page-header    {
@@ -192,8 +198,8 @@ hr::after   {
     }
     
     .heading  {
-        font-size: 2em;
-        margin: 5px;
+        font-size: 3em;
+        margin: .5em;
     }
     
     .nav-bar {
@@ -201,6 +207,7 @@ hr::after   {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 10px;
     }
     
     .barLink    {
@@ -230,10 +237,10 @@ hr::after   {
     
     /* Home page */
     
-    .profile    {
+    /* .profile    {
         padding: 10px;
         margin: 10px;
-    }
+    } */
     
     .kyle   {
         width: 75%;
@@ -241,14 +248,6 @@ hr::after   {
         border: 2px solid black;
     }
     
-    .headshot   {
-    }
-    
-    .bio    {
-    }
-    
-    .textRight  {
-    }
     
     /* Project page */
     
@@ -340,6 +339,10 @@ hr::after   {
 
 @media screen and (min-width:1130px)    {
 
+main    {
+    margin: 15px 50px;
+}
+
 .page-header    {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     display: flex;
@@ -351,13 +354,11 @@ hr::after   {
 
 .heading  {
     font-size: 4em;
-    margin: 20px;
+    margin: .5em;
 }
 
 .nav-bar {
-    font-size: 3em;
-    /* display: flex;
-    justify-content: space-between; */
+    font-size: 2.6em;
 }
 
 .barLink    {
@@ -402,10 +403,10 @@ a.barLink:hover{
     color:dodgerblue;
 }
 
-.profile    {
+/* .profile    {
     padding: 10px;
     margin: 10px;
-}
+} */
 
 .kyle   {
     width: 300px;
