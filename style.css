@@ -59,20 +59,27 @@ a.barLink  {
     text-decoration: none;
 }
 
+a   {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .footer {
     margin: 20px;
 }
 
 .email, .twitter, .linkedIn, .facebook, .instagram  {
     height: 30px;
+    margin: 10px;
+}
+
+.copyright  {
+    text-align: center;
 }
 
 /* Home page */
 
-/* .profile    {
-    padding: 10px;
-    margin: 10px;
-} */
+
 
 .kyle   {
     width: 75%;
@@ -81,11 +88,13 @@ a.barLink  {
     border-radius: 40px;
 }
 
-.headshot   {
+.name   {
+    padding: 2px 0px;
+    font-variant-caps: small-caps;
 }
 
-.bio    {
-
+.current-title  {
+    
 }
 
 .textRight  {
@@ -206,11 +215,23 @@ hr::after   {
     .footer {
         display: flex;
         justify-content: space-around;
+        align-items: center;
+    }
+
+    .email, .twitter, .linkedIn, .facebook, .instagram  {
+        height: 50px;
+    }
+
+    .copyright  {
+        font-size: 1.5em;
     }
     
     /* Home page */
   
-    
+    .textRight  {
+        font-size: 2em;
+    }
+
     /* Project page */
     
     .projDesc   {
