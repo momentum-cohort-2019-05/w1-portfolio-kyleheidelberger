@@ -39,11 +39,10 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-bottom: 10px; */
 }
 
 .barLink    {
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
     background-color: black;
     border-radius: 2em;
 }
@@ -205,6 +204,10 @@ hr::after   {
     
     .nav-bar {
         font-size: 2em;
+    }
+
+    .barLink    {
+        padding: 8px 20px;
     }
     
     .pageTitle  {
