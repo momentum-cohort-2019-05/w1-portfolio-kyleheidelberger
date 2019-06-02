@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Montserrat|Roboto|Source+Sans+Pro|Work+Sans&display=swap');
+/* 
+font-family: 'Work Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif; 
+*/
+
 *	{
     box-sizing: border-box;
     margin: 0;
@@ -7,14 +16,20 @@
 }
 
 /* element selectors */
+html, body  {
+    height: 100%;
+}
 
 body    {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 main    {
     padding: 10px 20px;
+    flex: 1 0 auto;
 }
 
 img {
@@ -27,6 +42,7 @@ img {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     padding: 14px 40px;
     width: 100%;
+    border-bottom: 3px solid black;
 }
 
 .heading  {
@@ -63,7 +79,9 @@ main a   {
 }
 
 .footer {
-    margin: 20px;
+    padding: 5px 20px;
+    background-color: rgba(2, 97, 187, 0.719);
+    flex-shrink: 0;
 }
 
 .email, .twitter, .linkedIn, .facebook, .instagram  {
