@@ -188,7 +188,7 @@ hr::after   {
     .nav-bar {
         font-size: 2rem;
     }
-
+    
     .barLink    {
         padding: 8px 20px;
     }
@@ -222,7 +222,7 @@ hr::after   {
     .projDesc   {
         font-size: 2em;
     }
-
+    
     .projImg    {
         margin: 20px 10px;
     }
@@ -359,7 +359,7 @@ hr::after   {
     .job-title  {
         font-size: 1.6rem;
     }
-
+    
     .job-description, .degree   {
         font-size:  1.5rem;
     }
