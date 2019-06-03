@@ -39,15 +39,17 @@ img {
 /* on all pages */
 
 .page-header    {
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(to bottom, rgba(31, 164, 201, 0.692), rgb(31, 164, 201));
     padding: 14px 40px;
     width: 100%;
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
 }
 
 .heading  {
+    font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin: 5px;
+    text-shadow: 2px 2px white;
 }
 
 .nav-bar {
@@ -61,6 +63,7 @@ img {
     padding: 5px 15px;
     background-color: black;
     border-radius: 2em;
+    box-shadow: 4px 4px rgba(58, 55, 55, 0.795);
 }
 
 .pageTitle  {
@@ -80,7 +83,7 @@ main a   {
 
 .footer {
     padding: 5px 20px;
-    background-color: rgba(2, 97, 187, 0.719);
+    background-color: rgba(31, 165, 201, 0.781);
     flex-shrink: 0;
 }
 
@@ -100,6 +103,7 @@ main a   {
     max-width: 400px;
     border: 8px solid black;
     border-radius: 40px;
+    /* box-shadow: 4px 4px rgba(56, 52, 53, 0.836); */
 }
 
 .name   {
