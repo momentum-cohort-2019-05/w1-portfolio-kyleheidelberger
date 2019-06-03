@@ -50,6 +50,8 @@ img {
     font-size: 2em;
     margin: 5px;
     text-shadow: 2px 2px white;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .nav-bar {
@@ -57,6 +59,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 5px;
 }
 
 .barLink    {
@@ -83,7 +86,7 @@ main a   {
 
 .footer {
     padding: 5px 20px;
-    background-color: rgba(31, 165, 201, 0.781);
+    background-color: rgba(31, 164, 201, 0.781);
     flex-shrink: 0;
 }
 
@@ -101,7 +104,7 @@ main a   {
 .kyle   {
     width: 75%;
     max-width: 400px;
-    border: 8px solid black;
+    border: 8px solid rgb(12, 62, 75);
     border-radius: 40px;
     /* box-shadow: 4px 4px rgba(56, 52, 53, 0.836); */
 }
@@ -131,6 +134,9 @@ main a   {
 }
 
 /* Resume */
+.resume {
+    margin-bottom: 20px;
+}
 
 .resume h3 {
     font-size: 2rem;
